@@ -1,0 +1,19 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Project data and generated results
+datasets/
+model/
+outputs/
+
+# Local secrets
+.env
+
+# VS Code and system files
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

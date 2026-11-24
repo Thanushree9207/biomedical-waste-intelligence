@@ -1,0 +1,6 @@
+jupyter
+ipython
+numpy
+scikit-learn
+openpyxl
+joblib

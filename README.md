@@ -76,7 +76,7 @@ Use Python 3 and run the commands from the project directory. Install the input 
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
-python -m pip install jupyter ipython numpy scikit-learn openpyxl joblib
+python -m pip install -r requirements.txt
 ```
 
 Run the workbook inspection and generate JSON/text reports under `outputs/`:
@@ -115,7 +115,7 @@ MLmodel/
 - Evaluate additional temporal baselines and uncertainty intervals.
 - Add automated tests for data validation and forecasting.
 - Build a standalone dashboard with filters, historical comparisons, treatment-gap views, and clearly labeled forecast ranges.
-- Add a dependency file and a reproducible data-preparation workflow.
+- Add a reproducible data-preparation workflow.
 
 ## References and Data Sources
 
